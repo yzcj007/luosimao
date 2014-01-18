@@ -1,0 +1,19 @@
+@charset "UTF-8";
+// site.css
+// based on Zurb/Foundation
+
+// site base normalize  escape ie6-8
+@import '../foundation/_normalize';
+
+// global setting
+@import '../foundation/_settings';
+
+// global mixin
+@import '../foundation/_functions';
+@import '../foundation/_foundation';
+
+@import '../font/_font-awesome';
+
+// site.css
+@import "base/_site";
+
